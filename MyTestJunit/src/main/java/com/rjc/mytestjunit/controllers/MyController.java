@@ -19,7 +19,6 @@ import com.rjc.mytestjunit.model.Parent;
 //@EnableAutoConfiguration
 
 @RequestMapping("/")
-//@Component
 public class MyController {
 
 //	@Value("${spring.application.name}")
