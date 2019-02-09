@@ -43,7 +43,6 @@ public class MyController {
 	
 	@PostMapping("/child")
 	public ResponseEntity<HttpStatus> setName(@RequestBody String name) {
-//		Child child = new child();
 		parent.setChild(child);
 		parent.getChild().setName(name);
 		return ResponseEntity.ok(HttpStatus.OK);
